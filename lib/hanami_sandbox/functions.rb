@@ -2,7 +2,7 @@
 
 require "dry/transformer"
 
-module AppPrototype
+module HanamiSandbox
   module Functions
     extend Dry::Transformer::Registry
 

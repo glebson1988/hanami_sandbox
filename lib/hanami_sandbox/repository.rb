@@ -3,7 +3,7 @@
 require "rom-repository"
 require_relative "entities"
 
-module AppPrototype
+module HanamiSandbox
   class Repository < ROM::Repository::Root
     include Deps[container: "persistence.rom"]
 
